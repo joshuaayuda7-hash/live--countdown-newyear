@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio autoplay loop id="bg-music">
+        <source src="bgaudio.mp3">
+    </audio>
+
+    <audio loop id="firework-bg">
+        <source src="fireworks.mp3">
+    </audio>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="container">
+        <div id="timer-container">
+            <h1>Countdown to New Year <br><span class="dev">By Joshua Ayuda</span></h1>
+            <div id="countdown">
+                <div class="time-box"><span id="days">00</span><small>Days</small></div>
+                <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+                <div class="time-box"><span id="minutes">00</span><small>Minutes</small></div>
+                <div class="time-box"><span id="seconds">00</span><small>Seconds</small></div>
+            </div>
+        </div>
+
+        <div id="celebration">
+            HAPPY NEW YEAR!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
